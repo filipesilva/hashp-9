@@ -1,0 +1,17 @@
+;; shadow-cljs configuration
+{:source-paths
+ ["src"]
+
+ :dependencies
+ [[hashp "0.2.0"]]
+
+ :nrepl {:init-ns user}
+ 
+ :builds
+ {:test {:target    :browser-test
+         :test-dir  "public"
+         :ns-regexp "test.*"
+         :devtools  {:autoload  true
+                     :http-port 8021
+                     :http-root "public"
+                     :preloads [hashp.core]}}}}

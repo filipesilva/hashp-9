@@ -1,0 +1,13 @@
+{
+  "name": "hashp-shadow-cljs",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "watch": "shadow-cljs watch test",
+    "clean": "rm -rf public/js .shadow-cljs"
+  },
+  "devDependencies": {
+    "shadow-cljs": "2.10.21"
+  },
+  "dependencies": {}
+}

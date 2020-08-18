@@ -1,0 +1,1 @@
+Repro for https://github.com/weavejester/hashp/issues/9
